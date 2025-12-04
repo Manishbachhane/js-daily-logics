@@ -1,5 +1,12 @@
-function secondLargest(arr) {
-  let sorted = [...new Set(arr)].sort((a, b) => b - a);
-  return sorted[1];
+function sumOfDigits(num) {
+  let digits = num.toString().split("");
+  let sum = 0;
+
+  for (let d of digits) {
+    sum += Number(d);
+  }
+
+  return sum;
 }
-console.log(secondLargest([10, 20, 8, 30]));
+
+console.log(sumOfDigits(1234));
