@@ -11,3 +11,5 @@ for (let num of arr) {
     secondLargest = num;
   }
 }
+
+console.log(secondLargest); 
