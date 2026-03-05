@@ -10,10 +10,9 @@ function secondMax(arr1){
       max=arr1[i];
     }else if(arr1[i]>secondMax && arr1[i]!=max){
       secondMax=arr1[i];
-    }  }
-
-
+    }
+  }
   console.log(max,secondMax);
 }
-
+ 
 secondMax(arr);
