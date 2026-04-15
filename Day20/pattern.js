@@ -1,11 +1,11 @@
 function fun(){
 
-
-    for(let i=1;i<=5;i++){
+let num=1;
+    for(let i=1;i<=4;i++){
       let row="";
-      for(let j=1;j<=5;j++){
-        if(i==j||i<=j){
-          row+="*";
+      for(let j=1;j<=7;j++){
+        if(j>=i&&j<=8-i){
+          row+=j;
         }else{
           row+=" ";
         }
